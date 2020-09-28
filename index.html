@@ -7,6 +7,8 @@
     <title>Home | tact</title>
 
     
+<link href="/top.ico" rel="shortcut icon" type="image/x-icon" />
+
 
 
 
@@ -59,7 +61,7 @@
 <style>
   body {
     
-      background-color: black;
+      background-color: purple;
     
     
   }
@@ -81,6 +83,10 @@
   </div>
   <div class="item">
     <i class="large link icon theme-switch" onclick="themeSwitch()"></i>
+  </div>
+  
+  <div class="item">
+    <i class="large link search icon" onclick="toggleSearch()"></i>
   </div>
   
 </nav>
@@ -320,6 +326,28 @@
 <script src="/js/masonry.pkgd.min.js"></script>
 <script src="/js/grid.js"></script>
 
+
+    
+      <div class="ui inverted segment" id="dream-search">
+  <div class="ui search">
+    <div class="ui transparent input">
+      <input class="prompt" type="text" placeholder="Search" />
+    </div>
+    <div class="results"></div>
+  </div>
+</div>
+<script>
+  $(document).ready(function () {
+    $.getJSON('http:\/\/example.org\//index.json', function (data) {
+      $('.ui.search').search({
+        source: data,
+        searchFields: ['title'],
+        showNoResults: true,
+      })
+    })
+  })
+</script>
+<script src="/js/search.js"></script>
 
     
 
