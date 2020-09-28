@@ -10,7 +10,7 @@
 
 
 
-<meta name="author" content="" />
+<meta name="author" content="tact" />
 <meta name="description" content="" />
 
 
@@ -40,9 +40,30 @@
 <link rel="stylesheet" href="/css/site.css" />
 
 
+<style>
+  a {
+    color: seagreen !important;
+  }
+</style>
 
 
 
+<style>
+  .inverted a {
+     color: darkseagreen !important;
+  }
+</style>
+
+
+
+<style>
+  body {
+    
+      background-color: black;
+    
+    
+  }
+</style>
 
 
      
@@ -50,7 +71,7 @@
 
   <body>
     
-<nav class="ui secondary menu dream-menu">
+<nav class="ui secondary inverted menu dream-menu">
 
   <div class="item">
     <i class="large link bullseye icon dream-flip-toggle" title="Flip it!"></i>
@@ -72,12 +93,12 @@
 <div class="dream-404-container">
   <div class="ui basic center aligned segment">
     
-      <h1 class="ui header">
-        Oops...You are lost in dream.
+      <h1 class="ui inverted header">
+        Oops ... You are lost in dream.
         <div class="sub header">Don't worry though, click the button below to wake up.</div>
       </h1>
       <p>
-        <button class="ui button" onclick="window.location.href = '/'">Back to home</button>
+        <button class="ui inverted button" onclick="window.location.href = '/'">Back to home</button>
       </p>
     
   </div>
@@ -101,7 +122,19 @@
         <nav class="ui secondary menu dream-menu dream-socials">
   
   
+    <div class="item">
+      <a href="mailto:003starrysky@gmail.com">
+        <i class="large mail icon" title="Email"></i>
+      </a>
+    </div>
+  
 
+  
+    <div class="item">
+      <a href="https://twitter.com/@SoedaTakuto" target="_blank">
+        <i class="large twitter icon" title="Twitter"></i>
+      </a>
+    </div>
   
 
   
@@ -138,7 +171,7 @@
     </div>
 
     <script>
-  window.darkNav =  null 
+  window.darkNav =  true 
   window.hasTwitterEmbed =  null 
 
   if (window.hasTwitterEmbed) {
