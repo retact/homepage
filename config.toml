@@ -9,7 +9,7 @@ tag = "tags"
 
 
 [params]
-  background = "#6812BA"
+  background = "#731BC8"
   # backgroundImage = "/me/background.jpg"
   linkColor = "seagreen"
 
