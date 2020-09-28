@@ -1,0 +1,8 @@
+baseURL = "http://example.org/"
+languageCode = "ja"
+title = "tact"
+contentDir = "post"
+disableKinds = ["RSS", "sitemap"]
+theme ="hugo-theme-dream"
+[taxonomies]
+tag = "tags"
