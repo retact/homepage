@@ -9,7 +9,7 @@ tag = "tags"
 
 
 [params]
-  background = "black"
+  background = "#6812BA"
   # backgroundImage = "/me/background.jpg"
   linkColor = "seagreen"
 
@@ -40,7 +40,7 @@ tag = "tags"
 
   siteStartYear = 2020
 
-  # favicon = "/favicon.ico"
+  favicon = "/top.ico"
 
   # highlightjs = true
   # highlightjsCDN = "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"
@@ -49,7 +49,7 @@ tag = "tags"
   # highlightjsThemeDark = "gruvbox-dark"
 
   # search
-  # enableSearch = true
+  enableSearch = true
 
   # options
   # showSummaryCoverInPost = true
