@@ -15,8 +15,8 @@ tag = "tags"
 
   author = "tact"
   # description = ""
-  avatar = "/img/avatar.jpg"
-  motto = "Motto"
+  avatar = "/img/tact.jpg"
+  motto = "20"
   # categoriesLimitInHeader = 6
   # headerBottomText = ""
 
@@ -30,11 +30,11 @@ tag = "tags"
 
   email = "003starrysky@gmail.com"
   twitter = "@SoedaTakuto"
-  # facebook = "@"
-  # instagram = ""
+  facebook = "tactsoeda"
+  instagram = "tact00369"
   # mastodon = ""
   # linkedin = ""
-  # github = ""
+  github = "takutosoeda"
   # stackoverflow = ""
   # codepen = ""
 
