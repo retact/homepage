@@ -19,7 +19,7 @@ tag = "tags"
   motto = "20"
   # categoriesLimitInHeader = 6
   # headerBottomText = ""
-
+  disqusShortname = "..."
   # rss = true
 
   # utterancesRepo = ""
